@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Random page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="my_class">Do I use it right?</div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>CV-Ekaterina_Simankova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-list-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-list-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-list-item"><a href="code" class="nav-link">Code examples</a></li>
+                    <li class="nav-list-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-list-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-list-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="profile">
+                <img src="assets/img/me.jpg" alt="Photo" class="profile-photo">
+                <div class="profile-title">
+                    <h1 class="profile-name">Ekaterina Simankova</h1>
+                </div>
+            </section>
+
+            <div class="parent-container">
+                <section id="contacts" class="child-container">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list first-list">
+                        <li class="section-item"><a href="https://t.me/kat_sim" class="contact-link">Telegram</a></li>
+                        <li class="section-item"><a href="mailto:ek.simankova@gmail.com" class="contact-link">E-mail</a>
+                        </li>
+                        <li class="section-item"><a href="discordapp.com/users/977514062218924082"
+                                class="contact-link">Discord: EkaterinaSimankova#0601</a></li>
+                        <li class="section-item"><a href="https://github.com/EkaterinaSimankova"
+                                class="contact-link">GitHub: EkaterinaSimankova</a></li>
+                    </ul>
+                </section>
+
+                <section id="about-me" class="child-container">
+                    <h2 class="section-title">About me</h2>
+                    <p><i>Curious, hard-working and resourceful person. I'm a fourth-year MSLU student. I study
+                            computational linguistics, speak English and Chinese. I'm looking for an opportunity to
+                            develop my skills in a new practicies with new challenges. I see the meaning of my work
+                            in constant self-improvement.</i>
+                    </p>
+                </section>
+            </div>
+
+            <div class="parent-container">
+                <section id="skills" class="child-container">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list second-list">
+                        <li class="section-item">Python</li>
+                        <li class="section-item">SQL: MySQL</li>
+                        <li class="section-item">HTML</li>
+                        <li class="section-item">CSS</li>
+                        <li class="section-item">JavaScript</li>
+                        <li class="section-item">Git, GitHub</li>
+                        <li class="section-item">VS Code</li>
+                    </ul>
+                </section>
+
+                <section id="code" class="child-container">
+                    <h2 class="section-title">Code Examples</h2>
+                    <pre class="pre">
+                        <code>
+ ```javascript
+function multiply(a, b){
+    return a * b;
+}
+```
+                        </code>
+                    </pre>
+                </section>
+            </div>
+
+            <div class="parent-container">
+                <section id="projects" class="child-container">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="section-list third-list">
+                        <li class="section-item"><a href="https://EkaterinaSimankova.github.io/rsschool-cv/cv">CV#1.
+                                Markdown & Git</a></li>
+                    </ul>
+                </section>
+
+                <section id="education" class="child-container">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="section-list forth-list">
+                        <li class="section-item"><b>Minsk State Linguistic University</b>
+                            <ul>
+                                <li>Modern foreign languages (Chinese, English), computational linguistics - <i>in
+                                        progress</i></li>
+                            </ul>
+                        </li>
+                        <li class="section-item"><b>RS School Course</b>
+                            <ul>
+                                <li>«JavaScript/Front-end. Stage 0» - <i>in progress</i></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section id="languages" class="child-container">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list fifth-list">
+                    <li class="section-item">Russian - <b>native speaker</b></li>
+                    <li class="section-item">English - <b>B2</b></li>
+                    <li class="section-item">Chinese - <b>B2</b></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>2022</div>
+            <div>
+                <a href="https://github.com/EkaterinaSimankova" class="git nav-link">GitHub: EkaterinaSimankova</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+
 </html>
