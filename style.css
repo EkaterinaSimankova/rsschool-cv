@@ -1,0 +1,238 @@
+.display-flex {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.header {
+    background-color: #3d3d3d;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.nav {
+    display: block;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-list-item {
+    position: relative;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffff;
+}
+
+.nav-link {
+    line-height: 50px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #000000;
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profile-name {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 60px;
+    word-spacing: 3px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3d3d3d;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+    
+}
+
+.contact-link {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.first-list > .section-item:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url(assets/img/contacts.png);
+}
+
+.second-list > .section-item:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url(assets/img/ok.png);
+}
+
+.third-list > .section-item:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url(assets/img/cursor.png);
+}
+
+.forth-list > .section-item:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url(assets/img/folder.png);
+}
+
+.fifth-list > .section-item:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-image: url(assets/img/edit.png);
+}
+
+.pre {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: #3d3d3d;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.git {
+    color: #ffff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.child-container {
+    width: 50%;
+    border-bottom: 1px solid #000000;
+    padding: 20px 30px;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(assets/img/logo-rsschool3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,5 +1,5 @@
 # Ekaterina Simankova <h1>
-![Photo](assets/me.jpg)
+![Photo](assets/img/me.jpg)
 ## Contacts: <h2>
 * +375291917984
 * [Telegram](https://t.me/kat_sim)
